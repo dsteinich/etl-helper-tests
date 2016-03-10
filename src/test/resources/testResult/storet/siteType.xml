@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.site_type_swap_storet data_source_id="3" code_value="Estuary"/>
+	<wqp_core.site_type_swap_storet data_source_id="3" code_value="Facility"/>
+	<wqp_core.site_type_swap_storet data_source_id="3" code_value="Well"/>
+</dataset>

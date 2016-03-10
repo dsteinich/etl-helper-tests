@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqx.county cnty_uid="101" st_uid="4" cnty_name="Boone" cnty_fips_cd="009" />
+	<wqx.county cnty_uid="103" st_uid="4" cnty_name="Calhoun" cnty_fips_cd="013" />
+	<wqx.county cnty_uid="3154" st_uid="50" cnty_name="Columbia" cnty_fips_cd="021" />
+	<wqx.county cnty_uid="3156" st_uid="50" cnty_name="Dane" cnty_fips_cd="025" />
+	<wqx.county cnty_uid="3157" st_uid="50" cnty_name="Dodge" cnty_fips_cd="027" />
+	<wqx.county cnty_uid="561" st_uid="12" cnty_name="Kauai" cnty_fips_cd="007" />
+	<wqx.county cnty_uid="562" st_uid="12" cnty_name="Maui" cnty_fips_cd="009" />
+</dataset>

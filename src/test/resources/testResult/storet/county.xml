@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:55:025" description="US, Wisconsin, Dane" />
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:55:027" description="US, Wisconsin, Dodge" />
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:05:013" description="US, Arkansas, Calhoun" />
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:55:021" description="US, Wisconsin, Columbia" />
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:15:007" description="US, Hawaii, Kauai" />
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:15:009" description="US, Hawaii, Maui" />
+	<wqp_core.county_swap_storet data_source_id="3" code_value="US:05:009" description="US, Arkansas, Boone" />
+</dataset>
+	

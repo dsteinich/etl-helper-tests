@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.assemblage_swap_storet/>
+	<wqp_core.char_name_swap_storet/>
+	<wqp_core.char_type_swap_storet/>
+	<wqp_core.country_swap_storet/>
+	<wqp_core.county_swap_storet/>
+	<wqp_core.organization_swap_storet/>
+	<wqp_core.project_dim_swap_storet/>
+	<wqp_core.project_swap_storet/>
+	<wqp_core.sample_media_swap_storet/>
+	<wqp_core.site_type_swap_storet/>
+	<wqp_core.state_swap_storet/>
+	<wqp_core.taxa_name_swap_storet/>
+
+	<wqp_core.assemblage/>
+	<wqp_core.char_name/>
+	<wqp_core.char_type/>
+	<wqp_core.country/>
+	<wqp_core.county/>
+	<wqp_core.organization/>
+	<wqp_core.project_dim/>
+	<wqp_core.project/>
+	<wqp_core.sample_media/>
+	<wqp_core.site_type/>
+	<wqp_core.state/>
+	<wqp_core.taxa_name/>
+</dataset>

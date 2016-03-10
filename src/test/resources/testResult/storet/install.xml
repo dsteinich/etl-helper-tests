@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.assemblage_swap_storet/>
+	<wqp_core.char_name_swap_storet/>
+	<wqp_core.char_type_swap_storet/>
+	<wqp_core.country_swap_storet/>
+	<wqp_core.county_swap_storet/>
+	<wqp_core.organization_swap_storet/>
+	<wqp_core.project_dim_swap_storet/>
+	<wqp_core.project_swap_storet/>
+	<wqp_core.sample_media_swap_storet/>
+	<wqp_core.site_type_swap_storet/>
+	<wqp_core.state_swap_storet/>
+	<wqp_core.taxa_name_swap_storet/>
+
+	<wqp_core.assemblage data_source_id="3" code_value="Invertebrates" />
+	<wqp_core.assemblage data_source_id="3" code_value="Periphyton" />
+	<wqp_core.assemblage data_source_id="3" code_value="Fish/Nekton" />
+
+	<wqp_core.char_name data_source_id="3" code_value="Malaoxon" />
+	<wqp_core.char_name data_source_id="3" code_value="Aroclor 1221" />
+	<wqp_core.char_name data_source_id="3" code_value="Acidity" />
+	<wqp_core.char_name data_source_id="3" code_value="Propetamphos" />
+
+	<wqp_core.char_type data_source_id="3" code_value="Physical" />
+	<wqp_core.char_type data_source_id="3" code_value="Microbiological" />
+	<wqp_core.char_type data_source_id="3" code_value="Toxicity" />
+	<wqp_core.char_type data_source_id="3" code_value="Inorganics, Major, Metals" />
+
+	<wqp_core.country data_source_id="3" code_value="NI" description="NICARAGUA" />
+	<wqp_core.country data_source_id="3" code_value="US" description="UNITED STATES OF AMERICA" />
+	<wqp_core.country data_source_id="3" code_value="MX" description="MEXICO" />
+	<wqp_core.country data_source_id="3" code_value="CN" description="CANADA" />
+
+	<wqp_core.county data_source_id="3" code_value="US:55:025" description="US, Wisconsin, Dane" country_code="US" state_code="US:55" />
+	<wqp_core.county data_source_id="3" code_value="US:55:027" description="US, Wisconsin, Dodge" country_code="US" state_code="US:55" />
+	<wqp_core.county data_source_id="3" code_value="US:05:013" description="US, Arkansas, Calhoun" country_code="US" state_code="US:05" />
+	<wqp_core.county data_source_id="3" code_value="US:55:021" description="US, Wisconsin, Columbia" country_code="US" state_code="US:55" />
+	<wqp_core.county data_source_id="3" code_value="US:15:007" description="US, Hawaii, Kauai" country_code="US" state_code="US:15" />
+	<wqp_core.county data_source_id="3" code_value="US:15:009" description="US, Hawaii, Maui" country_code="US" state_code="US:15" />
+	<wqp_core.county data_source_id="3" code_value="US:05:009" description="US, Arkansas, Boone" country_code="US" state_code="US:05" />
+
+	<wqp_core.organization data_source_id="3" code_value="FWC_SGMP" description="Florida Keys NMS - Seagrass Monitoring Program" />
+	<wqp_core.organization data_source_id="3" code_value="HI301H_WQX" description="City and county of Honolulu" />
+	<wqp_core.organization data_source_id="3" code_value="IASNAPST" description="Iowa Geological Survey (Iowa) Watershed Snapshots" />
+	<wqp_core.organization data_source_id="3" code_value="21FLKEYW" description="City of Key West (Florida)" />
+	<wqp_core.organization data_source_id="3" code_value="21FLLOXB" description="Loxahatchee River District (Florida)" />
+
+	<wqp_core.project data_source_id="3" code_value="project1" />
+	<wqp_core.project data_source_id="3" code_value="project2" />
+	<wqp_core.project data_source_id="3" code_value="project3" />
+
+	<wqp_core.project_dim data_source_id="3" code_value="project3" project_dim_value="project1;project3" />
+	<wqp_core.project_dim data_source_id="3" code_value="project1" project_dim_value="project1;project2;project3" />
+	<wqp_core.project_dim data_source_id="3" code_value="project2" project_dim_value="project2" />
+	<wqp_core.project_dim data_source_id="3" code_value="project3" project_dim_value="project3;project2" />
+	<wqp_core.project_dim data_source_id="3" code_value="project3" project_dim_value="project1;project2;project3" />
+	<wqp_core.project_dim data_source_id="3" code_value="project1" project_dim_value="project1;project3" />
+	<wqp_core.project_dim data_source_id="3" code_value="project1" project_dim_value="project1" />
+	<wqp_core.project_dim data_source_id="3" code_value="project2" project_dim_value="project1;project2;project3" />
+	<wqp_core.project_dim data_source_id="3" code_value="project2" project_dim_value="project3;project2" />
+
+	<wqp_core.sample_media data_source_id="3" code_value="Biological" />
+	<wqp_core.sample_media data_source_id="3" code_value="Tissue" />
+	<wqp_core.sample_media data_source_id="3" code_value="Other" />
+	<wqp_core.sample_media data_source_id="3" code_value="Soil" />
+	<wqp_core.sample_media data_source_id="3" code_value="Habitat" />
+	<wqp_core.sample_media data_source_id="3" code_value="Water" />
+	<wqp_core.sample_media data_source_id="3" code_value="Air" />
+	<wqp_core.sample_media data_source_id="3" code_value="Sediment" />
+
+	<wqp_core.site_type data_source_id="3" code_value="Estuary"/>
+	<wqp_core.site_type data_source_id="3" code_value="Facility"/>
+	<wqp_core.site_type data_source_id="3" code_value="Well"/>
+
+	<wqp_core.state data_source_id="3" code_value="US:15" description_with_country="US, Hawaii" description_with_out_country="Hawaii" />
+	<wqp_core.state data_source_id="3" code_value="US:55" description_with_country="US, Wisconsin" description_with_out_country="Wisconsin" />
+	<wqp_core.state data_source_id="3" code_value="US:05" description_with_country="US, Arkansas" description_with_out_country="Arkansas" />
+	<wqp_core.state data_source_id="3" code_value="CN:06" description_with_country="CN, Northwest Territorie (Pre 1999)" description_with_out_country="Northwest Territorie (Pre 1999)" />
+
+	<wqp_core.taxa_name data_source_id="3" code_value="Podarkeopsis brevipalpa" />
+	<wqp_core.taxa_name data_source_id="3" code_value="Menticirrhus americanus" />
+	<wqp_core.taxa_name data_source_id="3" code_value="Arctomelon stearnsii" />
+	<wqp_core.taxa_name data_source_id="3" code_value="Carditidae" />
+	<wqp_core.taxa_name data_source_id="3" code_value="Glycera capitata" />
+
+</dataset>

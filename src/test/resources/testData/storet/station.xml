@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.station_swap_storet data_source_id="3" station_id="1000" governmental_unit_code="NI" organization="HI301H_WQX" organization_name="City and county of Honolulu" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2000" governmental_unit_code="US:05:009" organization="IASNAPST" organization_name="Iowa Geological Survey (Iowa) Watershed Snapshots" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2001" governmental_unit_code="US:05:013" organization="21FLKEYW" organization_name="City of Key West (Florida)" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2002" governmental_unit_code="US:55:021" organization="FWC_SGMP" organization_name="Florida Keys NMS - Seagrass Monitoring Program" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2003" governmental_unit_code="US:55:025" organization="21FLLOXB" organization_name="Loxahatchee River District (Florida)" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2004" governmental_unit_code="US:55:027" organization="HI301H_WQX" organization_name="City and county of Honolulu" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2005" governmental_unit_code="US:15:007" organization="FWC_SGMP" organization_name="Florida Keys NMS - Seagrass Monitoring Program" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2006" governmental_unit_code="US:15:009" organization="21FLKEYW" organization_name="City of Key West (Florida)" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2007" governmental_unit_code="US:05:009" organization="IASNAPST" organization_name="Iowa Geological Survey (Iowa) Watershed Snapshots" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2008" governmental_unit_code="US:05:009" organization="21FLLOXB" organization_name="Loxahatchee River District (Florida)" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2009" governmental_unit_code="US:55:025" organization="HI301H_WQX" organization_name="City and county of Honolulu" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2010" governmental_unit_code="US:55:025" organization="FWC_SGMP" organization_name="Florida Keys NMS - Seagrass Monitoring Program" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2011" governmental_unit_code="US:55:025" organization="21FLLOXB" organization_name="Loxahatchee River District (Florida)" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2012" governmental_unit_code="US:55:027" organization="21FLKEYW" organization_name="City of Key West (Florida)" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="2013" governmental_unit_code="US:55:027" organization="HI301H_WQX" organization_name="City and county of Honolulu" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="3000" governmental_unit_code="MX" organization="IASNAPST" organization_name="Iowa Geological Survey (Iowa) Watershed Snapshots" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="4000" governmental_unit_code="CN:06" organization="FWC_SGMP" organization_name="Florida Keys NMS - Seagrass Monitoring Program" />
+	<wqp_core.station_swap_storet data_source_id="3" station_id="5000" />
+</dataset>

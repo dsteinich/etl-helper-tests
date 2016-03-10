@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqx.state st_uid="4" cntry_uid="1" st_cd="AR" st_name="Arkansas" st_fips_cd="5" er_uid="6" />
+	<wqx.state st_uid="12" cntry_uid="1" st_cd="HI" st_name="Hawaii" st_fips_cd="15" er_uid="9" />
+	<wqx.state st_uid="50" cntry_uid="1" st_cd="WI" st_name="Wisconsin" st_fips_cd="55" er_uid="5" />
+	<wqx.state st_uid="106" cntry_uid="2" st_cd="N9" st_name="Northwest Territorie (Pre 1999)" st_fips_cd="6" />
+</dataset>

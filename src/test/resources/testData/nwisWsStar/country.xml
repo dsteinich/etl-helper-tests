@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<nwis_ws_star.country country_cd="AF" country_nm="AFGHANISTAN" />
+	<nwis_ws_star.country country_cd="AR" country_nm="ARGENTINA" />
+	<nwis_ws_star.country country_cd="AY" country_nm="ANTARCTICA" />
+	<nwis_ws_star.country country_cd="BG" country_nm="BANGLADESH" />
+	<nwis_ws_star.country country_cd="CI" country_nm="CHILE" />
+	<nwis_ws_star.country country_cd="CN" country_nm="CANADA" />
+	<nwis_ws_star.country country_cd="CV" country_nm="CAPE VERDE" />
+	<nwis_ws_star.country country_cd="DR" country_nm="DOMINICAN REPUBLIC" />
+	<nwis_ws_star.country country_cd="ES" country_nm="EL SALVADOR" />
+	<nwis_ws_star.country country_cd="FM" country_nm="FEDERATED STATES OF MICRONESIA" />
+	<nwis_ws_star.country country_cd="GT" country_nm="GUATEMALA" />
+	<nwis_ws_star.country country_cd="HA" country_nm="HAITI" />
+	<nwis_ws_star.country country_cd="HO" country_nm="HONDURAS" />
+	<nwis_ws_star.country country_cd="IZ" country_nm="IRAQ" />
+	<nwis_ws_star.country country_cd="JA" country_nm="JAPAN" />
+	<nwis_ws_star.country country_cd="MX" country_nm="MEXICO" />
+	<nwis_ws_star.country country_cd="NU" country_nm="NICARAGUA" />
+	<nwis_ws_star.country country_cd="PE" country_nm="PERU" />
+	<nwis_ws_star.country country_cd="PM" country_nm="PANAMA" />
+	<nwis_ws_star.country country_cd="PS" country_nm="PALAU" />
+	<nwis_ws_star.country country_cd="RM" country_nm="MARSHALL ISLANDS" />
+	<nwis_ws_star.country country_cd="RP" country_nm="PHILIPPINES" />
+	<nwis_ws_star.country country_cd="UP" country_nm="UKRAINE" />
+	<nwis_ws_star.country country_cd="US" country_nm="UNITED STATES OF AMERICA" />
+</dataset>

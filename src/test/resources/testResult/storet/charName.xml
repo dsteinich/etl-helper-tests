@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.char_name_swap_storet data_source_id="3" code_value="Malaoxon" />
+	<wqp_core.char_name_swap_storet data_source_id="3" code_value="Aroclor 1221" />
+	<wqp_core.char_name_swap_storet data_source_id="3" code_value="Acidity" />
+	<wqp_core.char_name_swap_storet data_source_id="3" code_value="Propetamphos" />
+</dataset>

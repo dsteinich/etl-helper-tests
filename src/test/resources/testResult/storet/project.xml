@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.project_swap_storet data_source_id="3" code_value="project1" />
+	<wqp_core.project_swap_storet data_source_id="3" code_value="project2" />
+	<wqp_core.project_swap_storet data_source_id="3" code_value="project3" />
+</dataset>

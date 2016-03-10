@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project3" project_dim_value="project1;project3" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project1" project_dim_value="project1;project2;project3" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project2" project_dim_value="project2" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project3" project_dim_value="project3;project2" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project3" project_dim_value="project1;project2;project3" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project1" project_dim_value="project1;project3" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project1" project_dim_value="project1" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project2" project_dim_value="project1;project2;project3" />
+	<wqp_core.project_dim_swap_storet data_source_id="3" code_value="project2" project_dim_value="project3;project2" />
+</dataset>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.char_type_swap_storet data_source_id="3" code_value="Physical" />
+	<wqp_core.char_type_swap_storet data_source_id="3" code_value="Microbiological" />
+	<wqp_core.char_type_swap_storet data_source_id="3" code_value="Toxicity" />
+	<wqp_core.char_type_swap_storet data_source_id="3" code_value="Inorganics, Major, Metals" />
+</dataset>

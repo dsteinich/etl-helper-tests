@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqx.country cntry_uid="1" cntry_cd="US" cntry_name="United States" />
+	<wqx.country cntry_uid="2" cntry_cd="CN" cntry_name="Canada" />
+	<wqx.country cntry_uid="3" cntry_cd="MX" cntry_name="Mexico" />
+	<wqx.country cntry_uid="4" cntry_cd="PR" cntry_name="Puerto Rico" />
+	<wqx.country cntry_uid="5" cntry_cd="VI" cntry_name="United States Virgin Islands" />
+	<wqx.country cntry_uid="6" cntry_cd="UM" cntry_name="United State Minor Outlying Islands" />
+	<wqx.country cntry_uid="7" cntry_cd="AS" cntry_name="American Samoa" />
+	<wqx.country cntry_uid="11" cntry_cd="PO" cntry_name="Pacific Ocean" />
+	<wqx.country cntry_uid="12" cntry_cd="AO" cntry_name="Atlantic Ocean" />
+	<wqx.country cntry_uid="13" cntry_cd="IO" cntry_name="Indian Ocean" />
+	<wqx.country cntry_uid="14" cntry_cd="RO" cntry_name="Arctic Ocean" />
+	<wqx.country cntry_uid="15" cntry_cd="GM" cntry_name="Gulf of Mexico" />
+	<wqx.country cntry_uid="16" cntry_cd="CS" cntry_name="Caribbean Sea" />
+	<wqx.country cntry_uid="17" cntry_cd="NI" cntry_name="Nicaragua" />
+	<wqx.country cntry_uid="18" cntry_cd="TH" cntry_name="Thailand" />
+	<wqx.country cntry_uid="19" cntry_cd="IN" cntry_name="INDIA" />
+</dataset>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.country_swap_storet data_source_id="3" code_value="NI" description="NICARAGUA" />
+	<wqp_core.country_swap_storet data_source_id="3" code_value="US" description="UNITED STATES OF AMERICA" />
+	<wqp_core.country_swap_storet data_source_id="3" code_value="MX" description="MEXICO" />
+	<wqp_core.country_swap_storet data_source_id="3" code_value="CN" description="CANADA" />
+</dataset>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+
+<mapper namespace="etl_helper_code">
+
+	<update id="create_tables" parameterType="String" >
+		{call etl_helper_code.create_tables(#{value})}
+	</update>
+
+	<update id="create_assemblage" parameterType="String" >
+		{call etl_helper_code.create_assemblage(#{value})}
+	</update>
+
+	<update id="create_char_name" parameterType="String" >
+		{call etl_helper_code.create_char_name(#{value})}
+	</update>
+
+	<update id="create_char_type" parameterType="String" >
+		{call etl_helper_code.create_char_type(#{value})}
+	</update>
+
+	<update id="create_country" parameterType="String" >
+		{call etl_helper_code.create_country(#{value})}
+	</update>
+
+	<update id="create_county" parameterType="String" >
+		{call etl_helper_code.create_county(#{value})}
+	</update>
+
+	<update id="create_organization" parameterType="String" >
+		{call etl_helper_code.create_organization(#{value})}
+	</update>
+
+	<update id="create_project_dim" parameterType="String" >
+		{call etl_helper_code.create_project_dim(#{value})}
+	</update>
+
+	<update id="create_project" parameterType="String" >
+		{call etl_helper_code.create_project(#{value})}
+	</update>
+
+	<update id="create_sample_media" parameterType="String" >
+		{call etl_helper_code.create_sample_media(#{value})}
+	</update>
+
+	<update id="create_site_type" parameterType="String" >
+		{call etl_helper_code.create_site_type(#{value})}
+	</update>
+
+	<update id="create_state" parameterType="String" >
+		{call etl_helper_code.create_state(#{value})}
+	</update>
+
+	<update id="create_taxa_name" parameterType="String" >
+		{call etl_helper_code.create_taxa_name(#{value})}
+	</update>
+
+	<update id="analyze_tables" parameterType="String" >
+		{call etl_helper_code.analyze_tables(#{value})}
+	</update>
+
+	<update id="install" parameterType="String" >
+		{call etl_helper_code.install(#{value})}
+	</update>
+
+</mapper>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Biological" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Tissue" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Other" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Soil" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Habitat" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Water" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Air" />
+	<wqp_core.sample_media_swap_storet data_source_id="3" code_value="Sediment" />
+</dataset>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project1" assemblage_sampled_name="Invertebrates" characteristic_name="Malaoxon" characteristic_type="Toxicity" sample_media="Biological" sample_tissue_taxonomic_name="Carditidae" />
+	<wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project1" assemblage_sampled_name="Invertebrates" characteristic_name="Malaoxon" characteristic_type="Toxicity" sample_media="Air" sample_tissue_taxonomic_name="Glycera capitata" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project2" assemblage_sampled_name="Periphyton" characteristic_name="Aroclor 1221" characteristic_type="Inorganics, Major, Metals" sample_media="Water" sample_tissue_taxonomic_name="Arctomelon stearnsii" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project2" assemblage_sampled_name="Periphyton" characteristic_name="Aroclor 1221" characteristic_type="Inorganics, Major, Metals" sample_media="Sediment" sample_tissue_taxonomic_name="Menticirrhus americanus" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project1;project2;project3" assemblage_sampled_name="Invertebrates" characteristic_name="Acidity" characteristic_type="Microbiological" sample_media="Sediment" sample_tissue_taxonomic_name="Glycera capitata" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project3;project2" assemblage_sampled_name="Periphyton" characteristic_name="Propetamphos" characteristic_type="Physical" sample_media="Air" sample_tissue_taxonomic_name="Podarkeopsis brevipalpa" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project3;project2" assemblage_sampled_name="Periphyton" characteristic_name="Propetamphos" characteristic_type="Physical" sample_media="Water" sample_tissue_taxonomic_name="Carditidae" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project1;project3" assemblage_sampled_name="Fish/Nekton" characteristic_name="Acidity" characteristic_type="Inorganics, Major, Metals" sample_media="Habitat" sample_tissue_taxonomic_name="Arctomelon stearnsii" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project1;project3" assemblage_sampled_name="Periphyton" characteristic_name="Aroclor 1221" characteristic_type="Microbiological" sample_media="Soil" sample_tissue_taxonomic_name="Menticirrhus americanus" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project1;project3" assemblage_sampled_name="Periphyton" characteristic_name="Aroclor 1221" characteristic_type="Microbiological" sample_media="Biological" sample_tissue_taxonomic_name="Glycera capitata" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project2" assemblage_sampled_name="Fish/Nekton" characteristic_name="Malaoxon" characteristic_type="Toxicity" sample_media="Other" sample_tissue_taxonomic_name="Carditidae" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" project_id="project2" assemblage_sampled_name="Fish/Nekton" characteristic_name="Malaoxon" characteristic_type="Toxicity" sample_media="Tissue" sample_tissue_taxonomic_name="Glycera capitata" />
+    <wqp_core.result_ct_sum_swap_storet data_source_id="3" />
+</dataset>

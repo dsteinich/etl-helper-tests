@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.state_swap_storet data_source_id="3" code_value="US:15" description_with_country="US, Hawaii" description_with_out_country="Hawaii" />
+	<wqp_core.state_swap_storet data_source_id="3" code_value="US:55" description_with_country="US, Wisconsin" description_with_out_country="Wisconsin" />
+	<wqp_core.state_swap_storet data_source_id="3" code_value="US:05" description_with_country="US, Arkansas" description_with_out_country="Arkansas" />
+	<wqp_core.state_swap_storet data_source_id="3" code_value="CN:06" description_with_country="CN, Northwest Territorie (Pre 1999)" description_with_out_country="Northwest Territorie (Pre 1999)" />
+</dataset>

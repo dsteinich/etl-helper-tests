@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<wqp_core.organization_swap_storet data_source_id="3" code_value="FWC_SGMP" description="Florida Keys NMS - Seagrass Monitoring Program" />
+	<wqp_core.organization_swap_storet data_source_id="3" code_value="HI301H_WQX" description="City and county of Honolulu" />
+	<wqp_core.organization_swap_storet data_source_id="3" code_value="IASNAPST" description="Iowa Geological Survey (Iowa) Watershed Snapshots" />
+	<wqp_core.organization_swap_storet data_source_id="3" code_value="21FLKEYW" description="City of Key West (Florida)" />
+	<wqp_core.organization_swap_storet data_source_id="3" code_value="21FLLOXB" description="Loxahatchee River District (Florida)" />
+</dataset>
