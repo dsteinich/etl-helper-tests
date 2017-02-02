@@ -1,0 +1,1 @@
+This is a JAVA project meant to test the ETL_HELPER set of packages. It is out-of-date and needs some love.
