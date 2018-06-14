@@ -3,6 +3,8 @@ package gov.usgs.owi.wqp.etlHelper;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.annotation.Resource;
+
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
@@ -14,6 +16,8 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
 import com.github.springtestdbunit.TransactionDbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DbUnitConfiguration;
 
+import gov.usgs.owi.wqp.etlHelper.dao.EtlHelperMainDao;
+import gov.usgs.owi.wqp.etlHelper.dao.UtilityDao;
 import gov.usgs.owi.wqp.etlHelper.springinit.TestSpringConfig;
 
 
@@ -21,7 +25,7 @@ import gov.usgs.owi.wqp.etlHelper.springinit.TestSpringConfig;
 @ContextConfiguration(classes = TestSpringConfig.class)
 @TestExecutionListeners({ DependencyInjectionTestExecutionListener.class,
 	DirtiesContextTestExecutionListener.class,
-    TransactionalTestExecutionListener.class,
+	TransactionalTestExecutionListener.class,
 	TransactionDbUnitTestExecutionListener.class })
 @DbUnitConfiguration(dataSetLoader=ColumnSensingFlatXMLDataSetLoader.class,
 	databaseConnection={"wqp","wqx","nwisWsStar"})
@@ -29,7 +33,7 @@ public abstract class BaseSpringTest {
 
 	//Data Source Suffixes
 	public static final String STORET = "storet";
-	
+
 	//Swap Table Prefixes
 	public static final String ASSEMBLAGE_SWAP = "assemblage_swap_";
 	public static final String CHAR_NAME_SWAP = "char_name_swap_";
@@ -37,13 +41,15 @@ public abstract class BaseSpringTest {
 	public static final String COUNTRY_SWAP = "country_swap_";
 	public static final String COUNTY_SWAP = "county_swap_";
 	public static final String ORGANIZATION_SWAP = "organization_swap_";
+	public static final String PROJECT_DATA_SWAP = "project_data_swap_";
 	public static final String PROJECT_DIM_SWAP = "project_dim_swap_";
+	public static final String PROJECT_OBJECT_SWAP = "project_object_swap_";
 	public static final String PROJECT_SWAP = "project_swap_";
 	public static final String SAMPLE_MEDIA_SWAP = "sample_media_swap_";
 	public static final String SITE_TYPE_SWAP = "site_type_swap_";
 	public static final String STATE_SWAP = "state_swap_";
 	public static final String TAXA_NAME_SWAP = "taxa_name_swap_";
-	
+
 	//Swap Code Tables for Storet
 	public static final Collection<String> STORET_CODE_TABLES;
 	static {
@@ -64,5 +70,11 @@ public abstract class BaseSpringTest {
 
 	//Indexes for Storet
 	public static final String PDS_STORET_CODE = "create bitmap index pds_storet_code on project_dim_swap_storet(code_value) parallel 4 nologging";
+
+	@Resource
+	protected UtilityDao utilityDao;
+
+	@Resource
+	protected EtlHelperMainDao etlHelperMainDao;
 
 }

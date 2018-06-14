@@ -3,8 +3,12 @@
 
 <mapper namespace="etl_helper_main">
 
-	<delete id="drop_indexes" parameterType="String" >
-		{call etl_helper_main.drop_indexes(#{value})}
-	</delete>
+    <delete id="drop_indexes" parameterType="String" >
+        {call etl_helper_main.drop_indexes(#{value})}
+    </delete>
+
+    <delete id="drop_ri" parameterType="String" >
+        {call etl_helper_main.drop_ri(#{value})}
+    </delete>
 
 </mapper>

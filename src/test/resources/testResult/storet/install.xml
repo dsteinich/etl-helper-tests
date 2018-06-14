@@ -27,10 +27,10 @@
 	<wqp_core.char_type data_source_id="3" code_value="Toxicity" />
 	<wqp_core.char_type data_source_id="3" code_value="Inorganics, Major, Metals" />
 
-	<wqp_core.country data_source_id="3" code_value="NI" description="NICARAGUA" />
-	<wqp_core.country data_source_id="3" code_value="US" description="UNITED STATES OF AMERICA" />
-	<wqp_core.country data_source_id="3" code_value="MX" description="MEXICO" />
-	<wqp_core.country data_source_id="3" code_value="CN" description="CANADA" />
+	<wqp_core.country data_source_id="3" code_value="NI" description="Nicaragua" />
+	<wqp_core.country data_source_id="3" code_value="US" description="United States of America" />
+	<wqp_core.country data_source_id="3" code_value="MX" description="Mexico" />
+	<wqp_core.country data_source_id="3" code_value="CN" description="Canada" />
 
 	<wqp_core.county data_source_id="3" code_value="US:55:025" description="US, Wisconsin, Dane" country_code="US" state_code="US:55" />
 	<wqp_core.county data_source_id="3" code_value="US:55:027" description="US, Wisconsin, Dodge" country_code="US" state_code="US:55" />

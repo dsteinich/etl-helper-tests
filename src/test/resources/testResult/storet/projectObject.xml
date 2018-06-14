@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <wqp_core.project_object
+        data_source_id="3"
+        object_id="1"
+        data_source="STORET"
+        organization="Org1"
+        project_identifier="ProjectID1"
+        object_name="ObjectName1"
+        object_type="pdf"/>
+    <wqp_core.project_object
+        data_source_id="3"
+        object_id="2"
+        data_source="STORET"
+        organization="Org2"
+        project_identifier="ProjectID2"
+        object_name="ObjectName2"
+        object_type="xlsx"/>
+    <wqp_core.project_object
+        data_source_id="3"
+        object_id="3"
+        data_source="STORET"
+        organization="Org3"
+        project_identifier="ProjectID3"
+        object_name="ObjectName3"
+        object_type="jpg"/>
+    <wqp_core.project_object
+        data_source_id="3"
+        object_id="4"
+        data_source="STORET"
+        organization="Org4"
+        project_identifier="ProjectID4"
+        object_name="ObjectName4"
+        object_type="bmp"/>
+</dataset>

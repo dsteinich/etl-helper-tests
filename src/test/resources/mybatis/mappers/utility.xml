@@ -3,37 +3,39 @@
 
 <mapper namespace="utility">
 
-	<select id="countIndexes" resultType="int" >
-		select count(*)
-		  from user_indexes
-		 where table_name = upper(#{value})
-	</select>
-	
-	<update id="createIndex" >
-		${value}
-	</update>
+    <select id="countIndexes" resultType="int" >
+        select count(*)
+          from user_indexes
+         where table_name = upper(#{value}) and
+               index_type != 'LOB'
+    </select>
 
-	<select id="lastAnalyzed" resultType="BigDecimal">
-		select sysdate - min(last_analyzed) min_last_analyzed
-		  from (select nvl(last_analyzed, sysdate-1) last_analyzed
-		          from user_tables
-		         where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
-		        union all
-		        select nvl(last_analyzed, sysdate-1) last_analyzed
-		          from user_tab_partitions
-		         where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
-		        union all 
-		        select nvl(last_analyzed, sysdate-1) last_analyzed
-		          from user_indexes
-		         where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
-		        union all 
-		        select nvl(last_analyzed, sysdate-1) last_analyzed
-		          from user_ind_partitions
-		         where index_name in (select index_name
-		                                from user_indexes
-		                               where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
+    <update id="createIndex" >
+        ${value}
+    </update>
+
+    <select id="lastAnalyzed" resultType="BigDecimal">
+        select sysdate - min(last_analyzed) min_last_analyzed
+          from (select nvl(last_analyzed, sysdate-1) last_analyzed
+                  from user_tables
+                 where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
+                union all
+                select nvl(last_analyzed, sysdate-1) last_analyzed
+                  from user_tab_partitions
+                 where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
+                union all 
+                select nvl(last_analyzed, sysdate-1) last_analyzed
+                  from user_indexes
+                 where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach> and
+                       index_type != 'LOB'
+                union all 
+                select nvl(last_analyzed, sysdate-1) last_analyzed
+                  from user_ind_partitions
+                 where index_name in (select index_name
+                                        from user_indexes
+                                       where table_name in <foreach item="i" collection="list" open="(" separator="," close=")">upper(#{i})</foreach>
                                      )
-		       )
-	</select>
+               )
+    </select>
 
 </mapper>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <wqp_core.project_data_swap_storet
+        data_source_id="3"
+        project_id="1"
+        data_source="STORET"
+        organization="Org1"
+        organization_name="OrgName1"
+        project_identifier="ProjectID1"
+        project_name="ProjectName1"
+        description="Description1"
+        sampling_design_type_code="design code 1"
+        qapp_approved_indicator="Y"
+        qapp_approval_agency_name="Agency 1"
+        project_file_url="/file1"
+        monitoring_location_weight_url="/weight1"/>
+    <wqp_core.project_data_swap_storet
+        data_source_id="3"
+        project_id="2"
+        data_source="STORET"
+        organization="Org2"
+        organization_name="OrgName2"
+        project_identifier="ProjectID2"
+        project_name="ProjectName2"
+        description="Description2"
+        sampling_design_type_code="design code 2"
+        qapp_approved_indicator="N"
+        qapp_approval_agency_name="Agency 2"
+        project_file_url="/file2"
+        monitoring_location_weight_url="/weight2"/>
+    <wqp_core.project_data_swap_storet
+        data_source_id="3"
+        project_id="3"
+        data_source="STORET"
+        organization="Org3"
+        organization_name="OrgName3"
+        project_identifier="ProjectID3"
+        project_name="ProjectName3"
+        description="Description3"
+        sampling_design_type_code="design code 3"
+        qapp_approved_indicator="Y"
+        qapp_approval_agency_name="Agency 3"
+        project_file_url="/file3"
+        monitoring_location_weight_url="/weight3"/>
+    <wqp_core.project_data_swap_storet
+        data_source_id="3"
+        project_id="4"
+        data_source="STORET"
+        organization="Org4"
+        organization_name="OrgName4"
+        project_identifier="ProjectID4"
+        project_name="ProjectName4"
+        description="Description4"
+        sampling_design_type_code="design code 4"
+        qapp_approved_indicator="N"
+        qapp_approval_agency_name="Agency 4"
+        project_file_url="/file4"
+        monitoring_location_weight_url="/weight4"/>
+</dataset>

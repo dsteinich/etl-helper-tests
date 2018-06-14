@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 public class EtlHelperCodeDao extends BaseDao {
 
 	public static final String NS = "etl_helper_code.";
-	
+
 	@Autowired
 	public EtlHelperCodeDao(SqlSessionFactory sqlSessionFactory) {
 		super(sqlSessionFactory);

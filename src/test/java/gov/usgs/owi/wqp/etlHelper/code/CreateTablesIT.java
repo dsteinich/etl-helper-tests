@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import javax.annotation.Resource;
 
 import org.junit.Test;
-import org.junit.experimental.categories.Category;
 
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 import com.github.springtestdbunit.annotation.DatabaseSetups;
@@ -14,19 +13,17 @@ import com.github.springtestdbunit.annotation.ExpectedDatabases;
 import com.github.springtestdbunit.assertion.DatabaseAssertionMode;
 
 import gov.usgs.owi.wqp.etlHelper.BaseSpringTest;
-import gov.usgs.owi.wqp.etlHelper.DBIntegrationTest;
 import gov.usgs.owi.wqp.etlHelper.dao.EtlHelperCodeDao;
 import gov.usgs.owi.wqp.etlHelper.dao.UtilityDao;
 
-@Category(DBIntegrationTest.class)
-public class CreateTablesTest extends BaseSpringTest {
+public class CreateTablesIT extends BaseSpringTest {
 
 	@Resource
 	UtilityDao utilityDao;
-	
+
 	@Resource
 	EtlHelperCodeDao etlHelperCodeDao;
-	
+
 	@Test
 	@DatabaseSetups({
 		@DatabaseSetup(connection="wqp", value="classpath:/testCleanup/storet/assemblage.xml"),
@@ -43,7 +40,7 @@ public class CreateTablesTest extends BaseSpringTest {
 		@DatabaseSetup(connection="wqp", value="classpath:/testCleanup/storet/taxaName.xml"),
 		@DatabaseSetup(connection="wqp", value="classpath:/testData/storet/station.xml"),
 		@DatabaseSetup(connection="wqp", value="classpath:/testData/storet/stationSum.xml"),
-		@DatabaseSetup(connection="wqp", value="classpath:/testData/storet/resultCtSum.xml"),
+		@DatabaseSetup(connection="wqp", value="classpath:/testData/storet/resultSum.xml"),
 		@DatabaseSetup(connection="wqx", value="classpath:/testData/wqx/country.xml"),
 		@DatabaseSetup(connection="wqx", value="classpath:/testData/wqx/state.xml"),
 		@DatabaseSetup(connection="wqx", value="classpath:/testData/wqx/county.xml"),

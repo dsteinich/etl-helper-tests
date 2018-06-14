@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <wqp_core.project_object data_source_id="3" object_id="1"/>
+    <wqp_core.project_object data_source_id="3" object_id="2"/>
+    <wqp_core.etl_threshold data_source_id="3" table_name="PROJECT_OBJECT" min_rows="2" max_diff="2" />
+</dataset>

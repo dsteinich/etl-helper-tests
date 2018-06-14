@@ -5,7 +5,7 @@ import org.mybatis.spring.support.SqlSessionDaoSupport;
 
 public abstract class BaseDao extends SqlSessionDaoSupport {
 
-    public BaseDao(SqlSessionFactory sqlSessionFactory) {
+	public BaseDao(SqlSessionFactory sqlSessionFactory) {
 		setSqlSessionFactory(sqlSessionFactory);
 	}
 

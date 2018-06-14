@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 public class UtilityDao extends BaseDao {
 
 	@Autowired
-    public UtilityDao(SqlSessionFactory sqlSessionFactory) {
+	public UtilityDao(SqlSessionFactory sqlSessionFactory) {
 		super(sqlSessionFactory);
 	}
 

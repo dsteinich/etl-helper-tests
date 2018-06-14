@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+
+<mapper namespace="etl_helper_project_object">
+
+    <delete id="drop_indexes" parameterType="String" >
+        {call etl_helper_project_object.drop_indexes(#{value})}
+    </delete>
+
+    <update id="create_indexes" parameterType="String" >
+        {call etl_helper_project_object.create_indexes(#{value})}
+    </update>
+
+    <update id="analyze_tables" parameterType="String" >
+        {call etl_helper_project_object.analyze_tables(#{value})}
+    </update>
+
+    <select id="validate_transformation" parameterType="Map" statementType="CALLABLE" >
+        {call #{valid,mode=OUT,jdbcType=CHAR} := case when etl_helper_project_object.validate_transformation(#{table_suffix,mode=IN,jdbcType=CHAR}) then 'true' else 'false' end}
+    </select>
+
+    <update id="install" parameterType="String" >
+        {call etl_helper_project_object.install(#{value})}
+    </update>
+
+</mapper>

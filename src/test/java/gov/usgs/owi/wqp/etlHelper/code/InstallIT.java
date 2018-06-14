@@ -3,7 +3,6 @@ package gov.usgs.owi.wqp.etlHelper.code;
 import javax.annotation.Resource;
 
 import org.junit.Test;
-import org.junit.experimental.categories.Category;
 
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 import com.github.springtestdbunit.annotation.DatabaseSetups;
@@ -11,19 +10,17 @@ import com.github.springtestdbunit.annotation.ExpectedDatabase;
 import com.github.springtestdbunit.assertion.DatabaseAssertionMode;
 
 import gov.usgs.owi.wqp.etlHelper.BaseSpringTest;
-import gov.usgs.owi.wqp.etlHelper.DBIntegrationTest;
 import gov.usgs.owi.wqp.etlHelper.dao.EtlHelperCodeDao;
 import gov.usgs.owi.wqp.etlHelper.dao.UtilityDao;
 
-@Category(DBIntegrationTest.class)
-public class InstallTest extends BaseSpringTest {
+public class InstallIT extends BaseSpringTest {
 
 	@Resource
 	UtilityDao utilityDao;
-	
+
 	@Resource
 	EtlHelperCodeDao etlHelperCodeDao;
-	
+
 	@Test
 	@DatabaseSetups({
 		@DatabaseSetup(connection="wqp", value="classpath:/testCleanup/storet/install.xml"),

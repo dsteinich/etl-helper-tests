@@ -7,15 +7,12 @@ import java.math.BigDecimal;
 import javax.annotation.Resource;
 
 import org.junit.Test;
-import org.junit.experimental.categories.Category;
 
 import gov.usgs.owi.wqp.etlHelper.BaseSpringTest;
-import gov.usgs.owi.wqp.etlHelper.DBIntegrationTest;
 import gov.usgs.owi.wqp.etlHelper.dao.EtlHelperCodeDao;
 import gov.usgs.owi.wqp.etlHelper.dao.UtilityDao;
 
-@Category(DBIntegrationTest.class)
-public class AnalyzeTablesTest extends BaseSpringTest {
+public class AnalyzeTablesIT extends BaseSpringTest {
 
 	@Resource
 	UtilityDao utilityDao;

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project1" sample_media="Biological" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project1" sample_media="Air" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project2" sample_media="Water" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project2" sample_media="Sediment" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project1;project2;project3" sample_media="Sediment" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project3;project2" sample_media="Air" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project3;project2" sample_media="Water" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project1;project3" sample_media="Habitat" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project1;project3" sample_media="Soil" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project1;project3" sample_media="Biological" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project2" sample_media="Other" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" project_id="project2" sample_media="Tissue" />
+    <wqp_core.activity_sum_swap_storet data_source_id="3" />
+</dataset>
